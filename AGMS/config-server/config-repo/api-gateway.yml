@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: zone-service
+          uri: lb://zone-service
+          predicates:
+            - Path=/api/zones/**
+          filters:
+            - JwtAuthenticationFilter
+        - id: sensor-service
+          uri: lb://sensor-service
+          predicates:
+            - Path=/api/sensors/**
+          filters:
+            - JwtAuthenticationFilter
+        - id: automation-service
+          uri: lb://automation-service
+          predicates:
+            - Path=/api/automation/**
+          filters:
+            - JwtAuthenticationFilter
+        - id: crop-service
+          uri: lb://crop-service
+          predicates:
+            - Path=/api/crops/**
+          filters:
+            - JwtAuthenticationFilter
+
+jwt:
+  secret: "yourCustomSecretKeyThatIsAtLeast32BytesLong"
