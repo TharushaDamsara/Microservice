@@ -1,0 +1,3 @@
+com\agms\gateway\filter\JwtAuthenticationFilter$Config.class
+com\agms\gateway\filter\JwtAuthenticationFilter.class
+com\agms\gateway\ApiGatewayApplication.class

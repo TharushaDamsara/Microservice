@@ -1,0 +1,5 @@
+com\agms\automationservice\client\ZoneClient.class
+com\agms\automationservice\model\ZoneThreshold.class
+com\agms\automationservice\service\AutomationService.class
+com\agms\automationservice\AutomationServiceApplication.class
+com\agms\automationservice\controller\AutomationController.class

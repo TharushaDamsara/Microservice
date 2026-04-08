@@ -1,0 +1,5 @@
+com\agms\sensorservice\model\Telemetry$TelemetryBuilder.class
+com\agms\sensorservice\controller\SensorController.class
+com\agms\sensorservice\model\Telemetry.class
+com\agms\sensorservice\SensorServiceApplication.class
+com\agms\sensorservice\service\SensorService.class
