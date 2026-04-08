@@ -1,0 +1,6 @@
+com\agms\zoneservice\repository\ZoneRepository.class
+com\agms\zoneservice\model\Zone.class
+com\agms\zoneservice\controller\ZoneController.class
+com\agms\zoneservice\service\ZoneService.class
+com\agms\zoneservice\ZoneServiceApplication.class
+com\agms\zoneservice\model\Zone$ZoneBuilder.class
